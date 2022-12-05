@@ -1,22 +1,32 @@
 import styled from "styled-components";
 
-export const Container = styled.nav`
+export const Container = styled.div`
     width: 100%;
     position: absolute;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background: transparent;
-    color: white;
+    justify-content: center;
+    h1{
+        font-family: 'Rajdhani Bold', serif;
+    }
+
 `;
 
-
-
+export const NavContainer = styled.nav`
+    width: 100%;
+    max-width: 1220px;
+    display: flex;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+`;
 
 export const NavItems = styled.ul`
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const Items = styled.li`
@@ -26,14 +36,6 @@ export const Items = styled.li`
 
     &:hover {
         color: #ff124f;
+        cursor: pointer;
     }
-`;
-
-export const Button = styled.div`
-    width: 20%;
-    height: 50px;
-    border: #fff solid 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 `;

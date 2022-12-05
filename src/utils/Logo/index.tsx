@@ -1,12 +1,12 @@
 
 interface LogoType{
     size: string;
+    marginTop?: string;
 }
 export default function Logo(props: LogoType){
     return(
         <>
-            <div className="glitch" data-text="ARTHUR" style={{fontSize: props.size}}>ARTHUR</div>
-            <div className="glow">ARTHUR</div>
+            <h1 className="glitch" data-text="ARTHUR" style={{fontSize: props.size, marginTop: props.marginTop}}>ARTHUR</h1>
         </>
     )
 }
