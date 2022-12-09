@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/GlobalStyles.css';
 import './styles'
-import {Navbar, Main, About} from './components';
+import {Navbar, Main, About, Projects} from './components';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
         <Navbar />
         <Main />
         <About />
+        <Projects />
     </>
   );
 }

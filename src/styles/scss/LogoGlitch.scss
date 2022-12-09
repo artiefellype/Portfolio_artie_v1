@@ -41,7 +41,7 @@ h1.glitch::after {
 @keyframes glitch-animation-1 {
     $steps: 20;
     @for $i from 0 through $steps {
-        #{percentage($i*(1/$steps))} {
+        #{percentage($i*(calc(1/$steps)))} {
             clip: rect(random(650) + px, 350px, random(150) + px, 0px);
         }
     }
@@ -49,7 +49,7 @@ h1.glitch::after {
 @keyframes glitch-animation-2 {
     $steps: 20;
     @for $i from 0 through $steps {
-        #{percentage($i*(1/$steps))} {
+        #{percentage($i*(calc(1/$steps)))} {
             clip: rect(random(150) + px, 350px, random(150) + px, 5px);
         }
     }

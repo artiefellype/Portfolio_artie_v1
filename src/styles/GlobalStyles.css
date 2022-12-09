@@ -28,6 +28,11 @@
     src: local("Heebo"), url("./fonts/Heebo/Heebo-Light.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Heebo Regular";
+    src: local("Heebo"), url("./fonts/Heebo/Heebo-Regular.ttf") format("truetype");
+}
+
 * {
     margin: 0;
     font-family: "Rajdhani Regular", serif;
