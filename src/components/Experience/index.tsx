@@ -18,9 +18,6 @@ export default function Experience() {
     const { education, experience } = data;
     const [toggleState, setToggleState] = useState(0);
 
-    function handleToggleState(value: any) {
-        setToggleState(value);
-    }
     return (
         <Container>
             <SignContainer>
@@ -31,61 +28,36 @@ export default function Experience() {
 
             <ExperienceContainer>
                 <ExperienceTabs>
-                    <TabButton className="isActive">
-                        <h4>Botão 01</h4>
-                    </TabButton>
-                    <TabButton>
-                        <h4>Botão 02</h4>
-                    </TabButton>
-                    <TabButton>
-                        <h4>Botão 03</h4>
-                    </TabButton>
-                    <TabButton>
-                        <h4>Botão 04</h4>
-                    </TabButton>
+                    {experience.map((item, index)=>{
+                        return(
+                            <TabButton className={toggleState === index ? 'isActive' : ''} onClick={()=> setToggleState(index)}>
+                                <h4>Botão {index}</h4>
+                            </TabButton>
+                        );
+                    })}
                 </ExperienceTabs>
                 <ExperienceContents>
-                    <Content>
-                    <ContentHeader>
-                        <h2>TITULO @titulo</h2>
-                        <span> <i className="uil uil-calendar-alt"></i> 2020 - present</span>
-                    </ContentHeader>
-                    <ContentBody>
-                        <ul>
-                            <li> TIPO 1</li>
-                            <li> TIPO 2</li>
-                            <li> TIPO 3</li>
-                        </ul>
-                    </ContentBody>
-                    </Content>
 
-                    <Content className="isActive">
+                    {experience.map((item, index)=>{
+                        return(
+                            <Content className={toggleState === index ? 'isActive' : ''}>
                     <ContentHeader>
-                        <h2>TITULO2 @titulo2</h2>
-                        <span> <i className="uil uil-calendar-alt"></i> 2020 - present</span>
+                        <h2>{item.local} @titulo</h2>
+                        <span> <i className="uil uil-calendar-alt"></i>{item.date}</span>
                     </ContentHeader>
                     <ContentBody>
                         <ul>
-                            <li><i className="uil uil-cube"></i> TIPO 1</li>
-                            <li><i className="uil uil-cube"></i> TIPO 2</li>
-                            <li><i className="uil uil-cube"></i> TIPO 3</li>
+                            <li><i className="uil uil-cube"></i> {item.descripton}</li>
+                            <li><i className="uil uil-cube"></i> {item.descripton}</li>
+                            <li><i className="uil uil-cube"></i>{item.descripton}</li>
                         </ul>
                     </ContentBody>
                     </Content>
+                        );
+                    })}
 
-                    <Content>
-                    <ContentHeader>
-                        <h2>TITULO3 @titulo3</h2>
-                        <span> <i className="uil uil-calendar-alt"></i> 2020 - present</span>
-                    </ContentHeader>
-                    <ContentBody>
-                        <ul>
-                            <li> TIPO 1</li>
-                            <li> TIPO 2</li>
-                            <li> TIPO 3</li>
-                        </ul>
-                    </ContentBody>
-                    </Content>
+
+
 
 
                 </ExperienceContents>

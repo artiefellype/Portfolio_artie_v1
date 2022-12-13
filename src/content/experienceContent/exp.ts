@@ -1,13 +1,14 @@
 interface ExperienceType {
-    office: string;
+    office?: string;
     local: string;
     date: string;
+    descripton: string;
 }
 
 interface EducationType {
     course: string;
-    local: string;
-    date: string;
+    locale: string;
+    datee: string;
 }
 
 interface ExpType {
@@ -19,18 +20,18 @@ export const ExperienceData: ExpType = {
     education:[
         {
             course: "Ciência da Computação",
-            local: "UFERSA",
-            date: "2020 - Present",
+            locale: "UFERSA",
+            datee: "2020 - Present",
         },
         {
             course: "Ciência da Computação",
-            local: "UFERSA",
-            date: "2020 - Present",
+            locale: "UFERSA",
+            datee: "2020 - Present",
         },
         {
             course: "Ciência da Computação",
-            local: "UFERSA",
-            date: "2020 - Present",
+            locale: "UFERSA",
+            datee: "2020 - Present",
         },
     ],
     experience:[
@@ -38,16 +39,19 @@ export const ExperienceData: ExpType = {
             office: "Web designer",
             local: "UFERSA",
             date: "2021 - Present",
+            descripton: "Lorem Ipsum is simply dummy text of the printing e ind"
         },
         {
             office: "Web developer",
             local: "Enext",
             date: "2021 - Present",
+            descripton: "Lorem Ipsum is sm has been the ind"
         },
         {
             office: "Software Enginner",
             local: "Brasil",
             date: "2021 - Present",
+            descripton: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         },
     ]
 }

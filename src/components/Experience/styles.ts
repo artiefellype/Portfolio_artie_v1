@@ -54,20 +54,20 @@ export const ExperienceContainer = styled.div`
 
 export const ExperienceTabs = styled.div`
     width: 20%;
-    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
     padding-top: 3rem;
+    margin-left:4rem;
 
     .isActive {
-        border-left: solid 3px #ff124f;
-        color: #ff124f;
-        background: rgb(255, 18, 79, 0.18);
+        border-left: solid 3px rgb(255, 18, 79, 1);
+        color: #ffffff;
+        background: rgb(255, 18, 79, 0.70);
 
         &:hover{
-        background-color: rgb(255, 18, 79, 0.18);
+        background-color: rgb(255, 18, 79, 0.70);
     }
     }
 
@@ -77,14 +77,15 @@ export const TabButton = styled.div`
     display: flex;
     width: 100%;
     height: 62px;
-    color: #ffffff;
+    color: #ff124f;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     border-left: solid 3px #ffffff;
+    transition: ease 0.3s;
 
     &:hover{
-        background-color: #ff124f;
+        background-color: rgb(255, 18, 79, 0.18);
     }
 
     h4{
@@ -96,8 +97,7 @@ export const TabButton = styled.div`
 
 export const ExperienceContents = styled.div`
     display: block;
-    width: 40%;
-    height: 90%;
+    width: 50%;
     padding: 0 1.875rem;
     flex-direction: column;
 
@@ -119,6 +119,12 @@ export const ContentHeader = styled.div`
 
     h2{
         margin-top: -6rem;
+    }
+    span{
+        color: rgb(255, 18, 79, 1);
+        i{
+            margin-right: 15px;
+        }
     }
 `;
 
