@@ -38,6 +38,10 @@
     font-family: "Rajdhani Regular", serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 div {
     font-family: "Rajdhani Bold", serif;
 }

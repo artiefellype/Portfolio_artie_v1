@@ -53,7 +53,7 @@ export const ProjectItem = styled.a`
     color: white;
 
     &:nth-child(even){
-        padding-top: 10rem;
+        margin-top: 10rem;
     }
     &:nth-child(even){
         margin-bottom: -10rem;
