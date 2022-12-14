@@ -9,6 +9,9 @@ export const Container = styled.section`
     background-color: #161616;
     flex-direction: column;
 
+    .exp-title{
+        margin-top: 9rem;
+    }
     h2{
         padding-top: 8rem;
         font-family: 'Rajdhani Bold', serif;
@@ -40,7 +43,8 @@ export const ExperienceContainer = styled.div`
     display: flex;
     margin-top: 10rem;
     max-width: 1025px;
-    width: 1025px;
+    min-width: 600px;
+    width: 60%;
     height: 605px;
     min-height: 605px;
     background: #161616;
@@ -50,6 +54,7 @@ export const ExperienceContainer = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10rem;
 `;
 
 export const ExperienceTabs = styled.div`

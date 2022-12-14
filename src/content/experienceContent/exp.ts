@@ -5,35 +5,12 @@ interface ExperienceType {
     descripton: string;
 }
 
-interface EducationType {
-    course: string;
-    locale: string;
-    datee: string;
-}
-
 interface ExpType {
-    education: Array<EducationType>,
     experience: Array<ExperienceType>
 }
 
 export const ExperienceData: ExpType = {
-    education:[
-        {
-            course: "Ciência da Computação",
-            locale: "UFERSA",
-            datee: "2020 - Present",
-        },
-        {
-            course: "Ciência da Computação",
-            locale: "UFERSA",
-            datee: "2020 - Present",
-        },
-        {
-            course: "Ciência da Computação",
-            locale: "UFERSA",
-            datee: "2020 - Present",
-        },
-    ],
+
     experience:[
         {
             office: "Web designer",

@@ -30,5 +30,5 @@ export const LogoContainer = styled.div`
 export const LogoDescription = styled.span`
     color: #fff;
     font-family: "Heebo Light", sans-serif;
-    letter-spacing: 16px;
+    letter-spacing: 12px;
 `;

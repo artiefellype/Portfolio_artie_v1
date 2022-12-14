@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/GlobalStyles.css';
 import './styles'
-import {Navbar, Main, About, Projects, Experience} from './components';
+import {Navbar, Main, About, Projects, Experience, Contact, Footer} from './components';
 
 function App() {
   return (
@@ -11,6 +11,8 @@ function App() {
         <About />
         <Projects />
         <Experience />
+        <Contact />
+        <Footer />
     </>
   );
 }

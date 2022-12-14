@@ -1,8 +1,11 @@
 import { Container, BlockSep } from './styles';
 
-export default function Block(){
+interface BlockType {
+    className?: string;
+}
+export default function Block(props : BlockType){
     return(
-        <Container>
+        <Container className={props.className}>
             <BlockSep height='135px' />
             <BlockSep height='110px' />
             <BlockSep height='75px' />
