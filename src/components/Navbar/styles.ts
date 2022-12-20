@@ -8,7 +8,9 @@ export const Container = styled.div`
     justify-content: center;
     h1{
         font-family: 'Rajdhani Bold', serif;
+        padding-left: 20px;
     }
+
 
 `;
 
@@ -16,10 +18,29 @@ export const NavContainer = styled.nav`
     width: 100%;
     max-width: 1220px;
     display: flex;
+    flex-wrap: wrap;
     background: transparent;
     justify-content: space-between;
     align-items: center;
     color: white;
+
+    .dropdown{
+        display: none;
+    }
+
+    @media screen and (max-width: 728px) {
+        a{
+            display: none;
+        }
+
+        .dropdown{
+            display: block;
+            i{
+                font-size: 46px;
+                padding-right: 20px;
+            }
+        }
+    }
 `;
 
 export const NavItems = styled.ul`
@@ -27,12 +48,17 @@ export const NavItems = styled.ul`
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    list-style: none;
+    gap: 25px;
+
+    @media screen and (max-width: 728px) {
+        display: none;
+    }
 `;
 
 export const Items = styled.li`
     color: white;
-    padding: 0 10px;
-    list-style-type: none;
+
 
     &:hover {
         color: #ff124f;

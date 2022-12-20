@@ -29,3 +29,32 @@ export const LogoContainer = styled.div`
 
 
 `;
+
+export const SocialIconsContainer = styled.div`
+    width: 40%;
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0.5rem;
+
+        li {
+            list-style: none;
+
+            a{
+                text-decoration: none;
+                color: #fff;
+
+                i {
+                    font-size: 20px;
+                }
+
+                &:hover{
+                    filter: brightness(0.6);
+                }
+            }
+        }
+
+    }
+`;

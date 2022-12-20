@@ -6,6 +6,7 @@ export const Container = styled.section`
     background: #161616;
     color: white;
     display: flex;
+    justify-content: center;
 `;
 
 
@@ -24,13 +25,16 @@ export const AboutContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding: 0 10rem;
+    flex-wrap: wrap-reverse;
+
 `;
 
 export const AboutText = styled.div`
     flex-direction: column;
     padding-right: 10px;
-    flex: 1;
+    //flex: 1;
+    min-width: 350px;
+    max-width: 600px;
 
     h2{
         font-size: 45px;
@@ -44,7 +48,9 @@ export const AboutText = styled.div`
 `;
 
 export const AboutImagesContainer = styled.div`
-    height: 55%;
+    min-width: 300px;
+    max-width: 600px;
+    padding: 10px;
+    height: 45%;
     background-color: rebeccapurple;
-    flex: 1;
 `;

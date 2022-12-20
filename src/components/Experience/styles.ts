@@ -9,12 +9,12 @@ export const Container = styled.section`
     background-color: #161616;
     flex-direction: column;
 
-    .exp-title{
+    .exp-title {
         margin-top: 9rem;
     }
-    h2{
+    h2 {
         padding-top: 8rem;
-        font-family: 'Rajdhani Bold', serif;
+        font-family: "Rajdhani Bold", serif;
         font-size: 45px;
         color: white;
         z-index: 10;
@@ -32,7 +32,7 @@ export const SignContainer = styled.div`
 export const BackgroundContainer = styled.div`
     width: 100%;
     height: 26.75rem;
-    background-image: url('/img/red_background.svg');
+    background-image: url("/img/red_background.svg");
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -44,7 +44,7 @@ export const ExperienceContainer = styled.div`
     margin-top: 10rem;
     max-width: 1025px;
     min-width: 600px;
-    width: 60%;
+    width: 90%;
     height: 605px;
     min-height: 605px;
     background: #161616;
@@ -55,6 +55,13 @@ export const ExperienceContainer = styled.div`
     justify-content: center;
     align-items: center;
     margin-bottom: 10rem;
+
+    @media screen and (max-width: 728px) {
+        min-width: 320px;
+        width: 90%;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
 `;
 
 export const ExperienceTabs = styled.div`
@@ -64,18 +71,36 @@ export const ExperienceTabs = styled.div`
     justify-content: start;
     align-items: center;
     padding-top: 3rem;
-    margin-left:4rem;
+    margin-left: 14rem;
 
     .isActive {
         border-left: solid 3px rgb(255, 18, 79, 1);
         color: #ffffff;
-        background: rgb(255, 18, 79, 0.70);
+        background: rgb(255, 18, 79, 0.7);
 
-        &:hover{
-        background-color: rgb(255, 18, 79, 0.70);
-    }
+        &:hover {
+            background-color: rgb(255, 18, 79, 0.7);
+        }
     }
 
+    @media screen and (max-width: 728px) {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0;
+
+        .isActive {
+            border-left: none;
+            border-top: solid 3px rgb(255, 18, 79, 1);
+            color: #ffffff;
+            background: rgb(255, 18, 79, 0.7);
+
+            &:hover {
+                background-color: rgb(255, 18, 79, 0.7);
+            }
+        }
+    }
 `;
 
 export const TabButton = styled.div`
@@ -87,27 +112,51 @@ export const TabButton = styled.div`
     align-items: center;
     cursor: pointer;
     border-left: solid 3px #ffffff;
-    transition: ease 0.3s;
-
-    &:hover{
+    transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1);
+    outline: none;
+    &:hover {
         background-color: rgb(255, 18, 79, 0.18);
     }
 
-    h4{
+    h4 {
         padding-right: 50px;
         font-size: 20px;
-        font-family: 'Rajdhani Bold', serif;
+        font-family: "Rajdhani Bold", serif;
+    }
+
+    @media screen and (max-width: 728px) {
+        border-left: none;
+        border-top: solid 3px #ffffff;
+        white-space: nowrap;
+
+        &:first-child {
+            border-bottom-left-radius: 17px;
+        }
+        &:last-child {
+            border-bottom-right-radius: 17px;
+        }
+
+        h4 {
+            padding: 0;
+            margin: 0;
+            outline: none;
+        }
     }
 `;
 
 export const ExperienceContents = styled.div`
     display: block;
-    width: 50%;
+    width: 60%;
     padding: 0 1.875rem;
     flex-direction: column;
 
-    .isActive{
+    .isActive {
         display: block;
+    }
+
+    @media screen and (max-width: 728px) {
+        height: 85%;
+        width: 80%;
     }
 `;
 
@@ -122,12 +171,12 @@ export const ContentHeader = styled.div`
     color: white;
     margin-bottom: 2rem;
 
-    h2{
-        margin-top: -6rem;
+    h2 {
+        padding-top: 10px;
     }
-    span{
+    span {
         color: rgb(255, 18, 79, 1);
-        i{
+        i {
             margin-right: 15px;
         }
     }
@@ -139,7 +188,7 @@ export const ContentBody = styled.div`
     align-items: flex-start;
     color: white;
 
-    ul{
+    ul {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -147,11 +196,11 @@ export const ContentBody = styled.div`
         margin: 0;
     }
 
-    li{
+    li {
         list-style: none;
         margin: 5px 0;
 
-        i{
+        i {
             margin-right: 20px;
         }
     }

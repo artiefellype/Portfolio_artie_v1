@@ -36,10 +36,13 @@
 * {
     margin: 0;
     font-family: "Rajdhani Regular", serif;
+
 }
 
 html {
     scroll-behavior: smooth;
+    background-color: #161616;
+
 }
 
 div {
