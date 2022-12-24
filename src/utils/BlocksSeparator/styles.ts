@@ -11,7 +11,7 @@ export const Container = styled.div`
     height: 135px;
     width: 100%;
     background-color: transparent;
-    position: absolute;
+    position: relative;
     align-items: flex-end;
     left: 0;
     bottom: 0;

@@ -5,11 +5,36 @@ export const Container =  styled.div`
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-image: url('/img/red_background.svg');
+    background-image: url('/img/red_background.png');
     background-size: cover;
     background-repeat: no-repeat;
+
+    .info-container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15rem;
+    }
+
+    .buttons-container {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+
+        @media screen and (max-width: 724px){
+            flex-direction: column;
+            a {
+                margin: 1rem !important;
+            }
+
+        }
+    }
 
 `;
 
@@ -30,5 +55,6 @@ export const LogoContainer = styled.div`
 export const LogoDescription = styled.span`
     color: #fff;
     font-family: "Heebo Light", sans-serif;
-    letter-spacing: 12px;
+    letter-spacing: 8px;
+    text-align: center;
 `;

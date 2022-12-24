@@ -9,11 +9,9 @@ export const Container = styled.section`
     background-color: #161616;
     flex-direction: column;
 
-    .exp-title {
-        margin-top: 9rem;
-    }
+
     h2 {
-        padding-top: 8rem;
+        padding-bottom: 8rem;
         font-family: "Rajdhani Bold", serif;
         font-size: 45px;
         color: white;
@@ -27,6 +25,7 @@ export const SignContainer = styled.div`
     height: 250px;
     margin-bottom: 45rem;
     z-index: 0;
+    transform: translateY(-55%);
 `;
 
 export const BackgroundContainer = styled.div`
@@ -37,11 +36,11 @@ export const BackgroundContainer = styled.div`
     background-repeat: no-repeat;
     position: absolute;
     z-index: 1;
+    transform: translateY(-30%);
 `;
 
 export const ExperienceContainer = styled.div`
     display: flex;
-    margin-top: 10rem;
     max-width: 1025px;
     min-width: 600px;
     width: 90%;
@@ -55,6 +54,10 @@ export const ExperienceContainer = styled.div`
     justify-content: center;
     align-items: center;
     margin-bottom: 10rem;
+
+    h2 {
+        padding: 0;
+    }
 
     @media screen and (max-width: 728px) {
         min-width: 320px;

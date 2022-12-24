@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Link as LinkTo} from 'react-scroll';
 
 export const Container = styled.div`
     width: 100%;
@@ -64,4 +65,15 @@ export const Items = styled.li`
         color: #ff124f;
         cursor: pointer;
     }
+`;
+
+export const NavLinks = styled(LinkTo)`
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor:pointer;
+    transition: .2s ease;
 `;

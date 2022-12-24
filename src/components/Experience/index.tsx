@@ -19,7 +19,7 @@ export default function Experience() {
     const [toggleState, setToggleState] = useState(0);
 
     return (
-        <Container>
+        <Container id="experiencia">
             <SignContainer>
                 <RedSign title="EXPERIÊNCIAS_" />
             </SignContainer>
@@ -35,6 +35,7 @@ export default function Experience() {
                                     toggleState === index ? "isActive" : ""
                                 }
                                 onClick={() => setToggleState(index)}
+                                key={index}
                             >
                                 <h4>{item.local}</h4>
                             </TabButton>
@@ -48,6 +49,7 @@ export default function Experience() {
                                 className={
                                     toggleState === index ? "isActive" : ""
                                 }
+                                key={index}
                             >
                                 <ContentHeader>
                                     <h2>{item.office}</h2>
@@ -57,17 +59,17 @@ export default function Experience() {
                                         {item.date}
                                     </span>
                                 </ContentHeader>
-                                <ContentBody>
-                                    <ul>
+                                <ContentBody >
+                                    <ul >
                                         <li>
                                             <i className="uil uil-cube"></i>{" "}
                                             {item.descripton}
                                         </li>
-                                        <li>
+                                        <li  >
                                             <i className="uil uil-cube"></i>{" "}
                                             {item.descripton}
                                         </li>
-                                        <li>
+                                        <li >
                                             <i className="uil uil-cube"></i>
                                             {item.descripton}
                                         </li>

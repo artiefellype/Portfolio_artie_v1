@@ -1,14 +1,16 @@
+
 import { ButtonPrimary } from './styles';
 
 interface ButtonType{
-    title: string;
+    icon?: React.ReactNode;
+    title: any;
     link: string;
     margin?: string;
 }
 
-export default function Button({title, link, margin}: ButtonType){
+export default function Button({icon, title, link, margin}: ButtonType){
     return(
-        <ButtonPrimary style={{margin: `${margin}`}} href={link} target="_blank"><span>{title}</span></ButtonPrimary>
+        <ButtonPrimary style={{margin: `${margin}`}} href={link} target="_blank"><span>{icon}{title}</span></ButtonPrimary>
     );
 
 }

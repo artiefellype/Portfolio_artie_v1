@@ -42,4 +42,8 @@ export const ButtonPrimary = styled.a`
         position: absolute;
         z-index: 2;
     }
+
+    i {
+        padding-right: 5px;
+    }
 `;

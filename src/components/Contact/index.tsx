@@ -4,7 +4,7 @@ import Button from "../../utils/Button";
 
 export default function Contact(){
     return(
-        <Container>
+        <Container id="contato">
             <Block className="contactBlock"/>
             <ContentContainer>
                 <h2>PRECISA DE UM DEV?</h2>

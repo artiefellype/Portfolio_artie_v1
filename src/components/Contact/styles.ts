@@ -24,6 +24,7 @@ export const ContentContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10rem;
 
     h2{
         color: #fff;

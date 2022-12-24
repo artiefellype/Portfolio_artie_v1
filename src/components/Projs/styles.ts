@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
     width: 100%;
-    height: auto;
+    min-height: 120vh;
     display: flex;
     flex-direction: column;
     background: #161616;
@@ -13,6 +13,7 @@ export const SignContainer = styled.div`
     width: 100%;
     height: 250px;
     z-index: 0;
+    transform: translateY(-40%);
 `;
 
 export const ProjectsContainer = styled.div`
@@ -22,7 +23,7 @@ export const ProjectsContainer = styled.div`
     align-items: center;
     flex-direction: column;
     color: white;
-    margin-top: 8.5rem;
+    margin-top: 2.5rem;
     z-index: 1;
     h2{
         font-size: 45px;
@@ -34,12 +35,28 @@ export const ProjectsItems = styled.div`
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     gap: 60px;
     width: 90%;
     padding-top: 6rem;
     padding-bottom: 6rem;
     transition: all ease 0.3s;
+
+    div {
+        display: flex;
+        flex-direction: column;
+
+        .sub{
+            color: #ff124f;
+            cursor: default;
+            font-family: 'Heebo Light', sans-serif;
+            font-size: 12px;
+        }
+    }
+
+    @media screen and (max-width: 728px){
+        justify-content: center;
+    }
 `;
 
 
@@ -69,6 +86,8 @@ export const ProjectItem = styled.a`
     }
 
 
+
+
     &:hover {
         cursor: pointer;
         filter: brightness(1);
@@ -93,9 +112,8 @@ export const ProjectItem = styled.a`
         width: 200px;
         position: absolute;
         font-size: 42px;
-        margin-left: 6rem;
         transition: all ease 1s;
-        text-align: center;
+        text-align: left;
     }
 
     img{
