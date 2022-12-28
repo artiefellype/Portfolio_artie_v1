@@ -3,7 +3,6 @@ import Button from "../../utils/Button";
 import LogoGlitch from "../../utils/Logo";
 
 export default function Navbar() {
-
     return (
         <Container>
             <NavContainer>
@@ -58,7 +57,11 @@ export default function Navbar() {
                         </NavLinks>
                     </Items>
                 </NavItems>
-                <Button margin="0 2rem 0 0" title="RESUME" link="resume_arthurFelipe.pdf" />
+                <Button
+                    margin="0 2rem 0 0"
+                    title="RESUME"
+                    link="resume_arthurFelipe.pdf"
+                />
                 <span className="dropdown">
                     <i className="uil uil-bars"></i>
                 </span>

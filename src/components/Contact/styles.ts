@@ -31,5 +31,6 @@ export const ContentContainer = styled.div`
         font-family: 'Rajdhani Bold', serif;
         font-size: 62px;
         margin-bottom: 2rem;
+        text-align: center;
     }
 `;

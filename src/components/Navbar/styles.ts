@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {Link as LinkTo} from 'react-scroll';
+import { Link as LinkTo } from "react-scroll";
 
 export const Container = styled.div`
     width: 100%;
@@ -7,12 +7,10 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    h1{
-        font-family: 'Rajdhani Bold', serif;
+    h1 {
+        font-family: "Rajdhani Bold", serif;
         padding-left: 20px;
     }
-
-
 `;
 
 export const NavContainer = styled.nav`
@@ -25,18 +23,18 @@ export const NavContainer = styled.nav`
     align-items: center;
     color: white;
 
-    .dropdown{
+    .dropdown {
         display: none;
     }
 
     @media screen and (max-width: 728px) {
-        a{
+        a {
             display: none;
         }
 
-        .dropdown{
+        .dropdown {
             display: block;
-            i{
+            i {
                 font-size: 46px;
                 padding-right: 20px;
             }
@@ -60,7 +58,6 @@ export const NavItems = styled.ul`
 export const Items = styled.li`
     color: white;
 
-
     &:hover {
         color: #ff124f;
         cursor: pointer;
@@ -74,6 +71,6 @@ export const NavLinks = styled(LinkTo)`
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
-    cursor:pointer;
-    transition: .2s ease;
+    cursor: pointer;
+    transition: 0.2s ease;
 `;

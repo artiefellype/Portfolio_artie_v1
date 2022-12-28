@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-interface BlockType{
+interface BlockType {
     height: string;
     width?: string;
 }
@@ -18,7 +18,7 @@ export const Container = styled.div`
 `;
 
 export const BlockSep = styled.div<BlockType>`
-    width: ${(props)=> props.width || '16.6%'};
-    height: ${(props)=> props.height};
+    width: ${(props) => props.width || "16.6%"};
+    height: ${(props) => props.height};
     background: #161616;
 `;

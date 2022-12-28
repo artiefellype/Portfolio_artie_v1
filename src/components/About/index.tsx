@@ -21,7 +21,11 @@ export default function About() {
                         <h2>QUEM SOU EU?_</h2>
                         <p>
                             Sou atualmente estudante de Ciência da Computação na
-                            Universidade Federal Rural do Semi-Árido. Apesar do meu entusiasmo com tecnologia se dar desde pequeno, meu interesse na área da programação veio por volta de 2018 quando descobri o seu poder e desde lá fico animado em aprender cada vez mais.
+                            Universidade Federal Rural do Semi-Árido. Apesar do
+                            meu entusiasmo com tecnologia se dar desde pequeno,
+                            meu interesse na área da programação veio por volta
+                            de 2018 quando descobri o seu poder e desde lá fico
+                            animado em aprender cada vez mais.
                         </p>
                         <p>
                             Como programador já desenvolvi em equipe Soluções em

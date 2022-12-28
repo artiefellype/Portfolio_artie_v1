@@ -59,20 +59,20 @@ export default function Experience() {
                                         {item.date}
                                     </span>
                                 </ContentHeader>
-                                <ContentBody >
-                                    <ul >
-                                        <li>
-                                            <i className="uil uil-cube"></i>{" "}
-                                            {item.descripton}
-                                        </li>
-                                        <li  >
-                                            <i className="uil uil-cube"></i>{" "}
-                                            {item.descripton}
-                                        </li>
-                                        <li >
-                                            <i className="uil uil-cube"></i>
-                                            {item.descripton}
-                                        </li>
+                                <ContentBody>
+                                    <ul>
+                                        {item.descripton.map((desc, index) => {
+                                            return (
+                                                <li>
+                                                <i className="uil uil-cube"></i>
+                                                <p>
+
+                                                    {desc}
+                                                </p>
+                                                </li>
+
+                                            );
+                                        })}
                                     </ul>
                                 </ContentBody>
                             </Content>

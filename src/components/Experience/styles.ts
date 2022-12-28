@@ -9,13 +9,13 @@ export const Container = styled.section`
     background-color: #161616;
     flex-direction: column;
 
-
     h2 {
         padding-bottom: 8rem;
         font-family: "Rajdhani Bold", serif;
         font-size: 45px;
         color: white;
         z-index: 10;
+        text-align: center;
     }
 `;
 
@@ -74,7 +74,7 @@ export const ExperienceTabs = styled.div`
     justify-content: start;
     align-items: center;
     padding-top: 3rem;
-    margin-left: 14rem;
+    margin-left: 9rem;
 
     .isActive {
         border-left: solid 3px rgb(255, 18, 79, 1);
@@ -140,6 +140,7 @@ export const TabButton = styled.div`
         }
 
         h4 {
+            font-size: 18px;
             padding: 0;
             margin: 0;
             outline: none;
@@ -159,7 +160,7 @@ export const ExperienceContents = styled.div`
 
     @media screen and (max-width: 728px) {
         height: 85%;
-        width: 80%;
+        width: 90%;
     }
 `;
 
@@ -176,6 +177,7 @@ export const ContentHeader = styled.div`
 
     h2 {
         padding-top: 10px;
+        text-align: justify;
     }
     span {
         color: rgb(255, 18, 79, 1);
@@ -201,7 +203,10 @@ export const ContentBody = styled.div`
 
     li {
         list-style: none;
+        display: flex;
+        flex-direction: row;
         margin: 5px 0;
+        font-size: 18px;
 
         i {
             margin-right: 20px;

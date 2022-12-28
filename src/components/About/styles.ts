@@ -1,4 +1,4 @@
-import styled  from "styled-components";
+import styled from "styled-components";
 
 export const Container = styled.section`
     width: 100%;
@@ -7,8 +7,12 @@ export const Container = styled.section`
     color: white;
     display: flex;
     justify-content: center;
-`;
 
+    @media screen and (max-width: 728px) {
+        margin-top: 12rem;
+        margin-bottom: 5rem;
+    }
+`;
 
 export const SignContainer = styled.div`
     position: absolute;
@@ -17,8 +21,6 @@ export const SignContainer = styled.div`
     z-index: 0;
 `;
 
-
-
 export const AboutContainer = styled.div`
     z-index: 1;
     display: flex;
@@ -26,31 +28,34 @@ export const AboutContainer = styled.div`
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap-reverse;
-
 `;
 
 export const AboutTextContainer = styled.div`
     display: flex;
     flex-direction: column;
+    padding: 1rem 1.5rem;
 `;
 export const AboutText = styled.div`
     flex-direction: column;
     padding-right: 10px;
-    //flex: 1;
     min-width: 350px;
     max-width: 600px;
 
-    h2{
+    h2 {
         font-size: 45px;
-        font-family: 'rajdhani Bold';
+        font-family: "rajdhani Bold";
         padding-bottom: 10px;
+
+        @media screen and (max-width: 728px) {
+            text-align: center;
+        }
     }
-    p{
+    p {
         text-align: justify;
         font-size: 18px;
-        font-family: 'Heebo Regular';
+        font-family: "Heebo Regular";
         margin-bottom: 1rem;
-        color: #CCCCCC;
+        color: #cccccc;
     }
 `;
 

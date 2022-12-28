@@ -1,8 +1,8 @@
 import Marquee from "react-fast-marquee";
-interface RedSignType{
+interface RedSignType {
     title: string;
 }
-export default function RedSign({title}:RedSignType) {
+export default function RedSign({ title }: RedSignType) {
     return (
         <Marquee
             gradient={false}
@@ -12,7 +12,7 @@ export default function RedSign({title}:RedSignType) {
                 fontSize: "258px",
                 opacity: "15%",
                 color: "#FF124F",
-                cursor: 'default'
+                cursor: "default",
             }}
         >
             {title}

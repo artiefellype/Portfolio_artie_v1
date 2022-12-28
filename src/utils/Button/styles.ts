@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ButtonPrimary = styled.a`
-
     width: 8.5rem;
     height: 2.5rem;
     border: #fff solid 2px;
@@ -11,29 +10,29 @@ export const ButtonPrimary = styled.a`
     margin: 0;
     text-decoration: none;
     color: white;
-    transition: all .35s;
+    transition: all 0.35s;
 
-    &::after{
+    &::after {
         position: relative;
-        content: '';
+        content: "";
         top: 0;
         left: 0;
         width: 0;
         height: 100%;
         background: #fff;
-        transition: all .35s;
+        transition: all 0.35s;
     }
 
-    &:hover{
+    &:hover {
         color: #161616;
     }
 
-    &:hover::after{
+    &:hover::after {
         width: 100%;
     }
 
-    span{
-        font-family: 'Rajdhani Bold', serif;
+    span {
+        font-family: "Rajdhani Bold", serif;
         font-size: 16px;
         width: 8.5rem;
         display: flex;

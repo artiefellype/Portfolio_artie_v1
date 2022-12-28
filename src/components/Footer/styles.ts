@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     width: 100%;
     height: 300px;
-    background: #161616 ;
+    background: #161616;
     border-top: 2px solid #ff124f;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@ export const LogoContainer = styled.div`
     align-items: center;
     height: 150px;
 
-    h1{
+    h1 {
         font-family: "Rajdhani Bold", serif;
     }
 
@@ -26,8 +26,6 @@ export const LogoContainer = styled.div`
         font-family: "Heebo Light", sans-serif;
         letter-spacing: 8px;
     }
-
-
 `;
 
 export const SocialIconsContainer = styled.div`
@@ -42,7 +40,7 @@ export const SocialIconsContainer = styled.div`
         li {
             list-style: none;
 
-            a{
+            a {
                 text-decoration: none;
                 color: #fff;
 
@@ -50,11 +48,10 @@ export const SocialIconsContainer = styled.div`
                     font-size: 20px;
                 }
 
-                &:hover{
+                &:hover {
                     filter: brightness(0.6);
                 }
             }
         }
-
     }
 `;
