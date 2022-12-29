@@ -44,6 +44,10 @@ html {
     background-color: #161616;
 }
 
+body {
+    overflow-x: hidden ;
+}
+
 div {
     font-family: "Rajdhani Bold", serif;
 }

@@ -41,14 +41,5 @@ export const ExperienceData: ExpType = {
                 "Realizei a integração da interface do sistema com o backend",
             ],
         },
-        {
-            office: "Web Developer",
-            local: "RB Fotografias",
-            date: "2020",
-            descripton: [
-                "Desenvolvi o design e o frontend de um portfólio para uma fotógrafa local, primeiramente utilizando html, css e javascript puro e posteriormente atualizando o site com Reactjs",
-                "Utilizei o firebase para fazer o armazenamento das fotos presentes no site",
-            ],
-        },
     ],
 };

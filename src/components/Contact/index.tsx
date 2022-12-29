@@ -8,7 +8,7 @@ export default function Contact(){
             <Block className="contactBlock"/>
             <ContentContainer>
                 <h2>PRECISA DE UM DEV?</h2>
-                <Button title="MANDE UM OI" link="/" />
+                <Button title="MANDE UM OI" link="mailto:arthurfellype21@gmail.com" />
             </ContentContainer>
         </Container>
     );

@@ -18,7 +18,7 @@ export const Container = styled.div`
 `;
 
 export const BlockSep = styled.div<BlockType>`
-    width: ${(props) => props.width || "16.6%"};
+    width: ${(props) => props.width || "100%"};
     height: ${(props) => props.height};
     background: #161616;
 `;

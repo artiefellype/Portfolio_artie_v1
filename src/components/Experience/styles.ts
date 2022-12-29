@@ -57,6 +57,7 @@ export const ExperienceContainer = styled.div`
 
     h2 {
         padding: 0;
+        text-align: left;
     }
 
     @media screen and (max-width: 728px) {
@@ -177,7 +178,6 @@ export const ContentHeader = styled.div`
 
     h2 {
         padding-top: 10px;
-        text-align: justify;
     }
     span {
         color: rgb(255, 18, 79, 1);

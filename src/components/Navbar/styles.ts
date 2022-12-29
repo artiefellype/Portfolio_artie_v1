@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { Link as LinkTo } from "react-scroll";
-
+interface MenuBarCheck {
+    checkIsOpen?: boolean;
+}
 export const Container = styled.div`
     width: 100%;
     position: absolute;
@@ -31,13 +33,22 @@ export const NavContainer = styled.nav`
         a {
             display: none;
         }
-
+         h1{
+            padding-top: 1rem;
+         }
         .dropdown {
             display: block;
+            position: absolute;
+            top: 0.5rem;
+            right: 2rem;
+            z-index: 9999;
             i {
                 font-size: 46px;
                 padding-right: 20px;
             }
+        }
+        .dropdownpos {
+            position: fixed !important;
         }
     }
 `;
@@ -73,4 +84,38 @@ export const NavLinks = styled(LinkTo)`
     height: 100%;
     cursor: pointer;
     transition: 0.2s ease;
+`;
+
+//----MOBILE ----
+
+export const MobileNavBar = styled.nav<MenuBarCheck>`
+    display: none;
+    @media screen and (max-width: 728px) {
+        display: flex;
+        position: fixed;
+        inset: 0 0 0 30%;
+        z-index: 999;
+        background-color: #16161630;
+        backdrop-filter: blur(1rem);
+        flex-direction: column;
+        list-style-type: none;
+        padding: min(20vh, 10rem) 2em;
+        transition: all ease-in-out .3s;
+        transform: ${(props)=>props.checkIsOpen ? 'translateX(0%)':'translateX(100%)'};
+
+
+        li {
+            padding: 1rem 0.5rem;
+            display: flex;
+            flex-direction: row;
+            font-size: 24px;
+            h4{
+                font-family: 'Rajdhani Bold', sans-serif;
+            }
+            a{
+                font-family: 'Rajdhani Light', sans-serif !important;
+                margin: 0;
+            }
+        }
+    }
 `;

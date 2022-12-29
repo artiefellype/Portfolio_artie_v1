@@ -9,7 +9,7 @@ export const Container = styled.section`
     justify-content: center;
 
     @media screen and (max-width: 728px) {
-        margin-top: 12rem;
+        padding-top: 12rem;
         margin-bottom: 5rem;
     }
 `;

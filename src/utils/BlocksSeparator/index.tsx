@@ -9,7 +9,7 @@ export default function Block(props: BlockType) {
             <BlockSep height="135px" />
             <BlockSep height="110px" />
             <BlockSep height="75px" />
-            <BlockSep height="50px" width="17%" />
+            <BlockSep height="50px" />
             <BlockSep height="75px" />
             <BlockSep height="135px" />
         </Container>

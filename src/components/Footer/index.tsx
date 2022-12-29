@@ -11,7 +11,7 @@ export default function Footer() {
                     <div>
                         <li>
                             <a
-                                href="http://"
+                                href="https://github.com/artiefellype"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -21,7 +21,7 @@ export default function Footer() {
 
                         <li>
                             <a
-                                href="http://"
+                                href="https://www.instagram.com/artie.arauj0/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -30,7 +30,7 @@ export default function Footer() {
                         </li>
                         <li>
                             <a
-                                href="http://"
+                                href="https://www.linkedin.com/in/arthur-felipe-b5b025216/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
