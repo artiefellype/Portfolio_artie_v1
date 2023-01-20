@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FadeInTransformRightAnimation, FadeInTransformLeftAnimation } from "../../utils/Animations";
 
 export const Container = styled.section`
     width: 100%;
@@ -34,6 +35,9 @@ export const AboutTextContainer = styled.div`
     display: flex;
     flex-direction: column;
     padding: 1rem 1.5rem;
+
+    animation: ${FadeInTransformLeftAnimation} ease 600ms;
+
 `;
 export const AboutText = styled.div`
     flex-direction: column;
@@ -75,9 +79,26 @@ export const AboutList = styled.ul`
 `;
 
 export const AboutImagesContainer = styled.div`
-    min-width: 300px;
-    max-width: 600px;
+    min-width: 400px;
+    max-width: 800px;
     padding: 10px;
     height: 45%;
-    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    border: 7px solid #ff124f;
+    animation: ${FadeInTransformRightAnimation} ease 600ms;
+`;
+
+export const ProfileImage = styled.div`
+    width: 395px;
+    height: 100%;
+    background-color: red;
+    border-radius: 15%;
+    z-index: 10;
+    background-image: url("/img/profile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
 `;

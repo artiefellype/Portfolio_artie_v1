@@ -1,4 +1,9 @@
 import styled from "styled-components";
+import {
+    FadeAnimation,
+    FadeInTransformRightAnimation,
+    FadeInTransformYAnimation,
+} from "../../utils/Animations";
 
 export const Container = styled.div`
     width: 100%;
@@ -26,6 +31,7 @@ export const Container = styled.div`
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
+        animation: ${FadeInTransformRightAnimation} ease 900ms;
 
         @media screen and (max-width: 724px) {
             flex-direction: column;
@@ -40,6 +46,7 @@ export const LogoContainer = styled.div`
     margin: 0;
     display: flex;
     flex-direction: column;
+    animation: ${FadeInTransformYAnimation} 600ms ease-in-out;
     h1 {
         font-family: "Rajdhani Bold", serif;
     }
@@ -55,4 +62,5 @@ export const LogoDescription = styled.span`
     font-family: "Heebo Light", sans-serif;
     letter-spacing: 8px;
     text-align: center;
+    animation: ${FadeAnimation} 800ms ease-in-out;
 `;

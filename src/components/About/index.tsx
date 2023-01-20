@@ -5,6 +5,7 @@ import {
     AboutText,
     AboutTextContainer,
     Container,
+    ProfileImage,
     SignContainer,
 } from "./styles";
 import RedSign from "../../utils/RedSign";
@@ -61,7 +62,9 @@ export default function About() {
                     </AboutList>
                 </AboutTextContainer>
 
-                <AboutImagesContainer></AboutImagesContainer>
+                <AboutImagesContainer>
+                    <ProfileImage />
+                </AboutImagesContainer>
             </AboutContainer>
         </Container>
     );

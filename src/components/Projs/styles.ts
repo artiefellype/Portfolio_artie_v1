@@ -39,7 +39,7 @@ export const ProjectsItems = styled.div`
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     gap: 60px;
     width: 90%;
     padding-top: 6rem;

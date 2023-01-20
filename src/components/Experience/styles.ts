@@ -116,7 +116,7 @@ export const TabButton = styled.div`
     align-items: center;
     cursor: pointer;
     border-left: solid 3px #ffffff;
-    transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1);
+    transition: all .6s ease;
     outline: none;
     &:hover {
         background-color: rgb(255, 18, 79, 0.18);
