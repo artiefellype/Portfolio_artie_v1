@@ -138,7 +138,7 @@ export default function Navbar() {
                 <Button
                     margin="2rem 0"
                     title="RESUME"
-                    link="arthurFelipe_resume.pdf"
+                    link="/arthurFelipe_resume.pdf"
                 />
             </MobileNavBar>
         </>
