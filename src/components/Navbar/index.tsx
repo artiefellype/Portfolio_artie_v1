@@ -74,7 +74,7 @@ export default function Navbar() {
                     <Button
                         margin="0 2rem 0 0"
                         title="RESUME"
-                        link="resume_arthurFelipe.pdf"
+                        link="arthurFelipe_resume.pdf"
                     />
                     <span
                         className={`dropdown ${isOpen ? "dropdownpos" : ""}`}
@@ -138,7 +138,7 @@ export default function Navbar() {
                 <Button
                     margin="2rem 0"
                     title="RESUME"
-                    link="/arthurFelipe_resume.pdf"
+                    link="arthurFelipe_resume.pdf"
                 />
             </MobileNavBar>
         </>
