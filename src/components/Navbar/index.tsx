@@ -18,7 +18,9 @@ export default function Navbar() {
     }
     return (
         <>
-            <Container>
+            <Container style={{
+                paddingTop: '16px'
+            }}>
                 <NavContainer>
                     <LogoGlitch size="32px" />
                     <NavItems>
