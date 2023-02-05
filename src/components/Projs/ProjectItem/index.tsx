@@ -15,7 +15,7 @@ export default function Project({
     languages,
 }: ProjectType) {
     return (
-        <div>
+        <div style={{alignItems: 'center'}}>
             <ProjectItem target="_blank" href={link}>
                 <img loading="lazy" src={src} alt={alt ? alt : "img"} />
                 <h2>{title}</h2>

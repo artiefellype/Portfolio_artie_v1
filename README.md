@@ -1,6 +1,13 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/artiefellype/Portfolio_artie/master/public/img/apple-touch-icon.png" width="100" />
+</div>
+<h1 align="center">
+  artifellype portfólio - v1
+</h1>
+<p align="center">
+  Primeira versão do <a href="https://arthur-felipe.vercel.app/" target="_blank"> portfólio </a> construído utilizando <a href="https://pt-br.reactjs.org/" target="_blank">React</a> e hospedado com a <a href="https://vercel.com/" target="_blank">Vercel</a>
+</p>
+<hr />
 
 ## Available Scripts
 

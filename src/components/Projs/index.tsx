@@ -16,6 +16,20 @@ export default function Projects() {
             <ProjectsContainer>
                 <h2>ALGUNS DOS MEUS PROJETOS_ </h2>
                 <ProjectsItems>
+
+                    <Project
+                        title="Portfólio de fotógrafa"
+                        src="img/rebportfolio.png"
+                        link="https://rebeca-fotografias.netlify.app"
+                        languages="React - styled-components - firebase"
+                    />
+                    <Project
+                        title="Sistema Hospitalar"
+                        src="img/health.png"
+                        link="https://github.com/artiefellype/health-sistema-hospitalar"
+                        alt="Imagem de tela de login com criança sorrindo em um balanço"
+                        languages="Typescript - React - NextJs - NestJs - PostgreSQL"
+                    />
                     <Project
                         title="BinaryTo Decimal"
                         src="img/biToDe.png"
@@ -28,12 +42,6 @@ export default function Projects() {
                         src="img/raycasting.png"
                         link="https://artiefellype.github.io/Raycasting-CodingChallenges/"
                         languages="html - javascript"
-                    />
-                    <Project
-                        title="Photographer Portfolio"
-                        src="img/rebportfolio.png"
-                        link="https://rebeca-fotografias.netlify.app"
-                        languages="React - styled-components - firebase"
                     />
                     <Project
                         title="Em desenvolvimento"

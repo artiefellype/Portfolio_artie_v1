@@ -67,7 +67,7 @@ export const AboutList = styled.ul`
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
     gap: 0px 10px;
-    padding: 0px;
+    padding: 0;
     margin: 20px 0px 0px;
     overflow: hidden;
     list-style: none;
@@ -79,9 +79,7 @@ export const AboutList = styled.ul`
 `;
 
 export const AboutImagesContainer = styled.div`
-    min-width: 400px;
-    max-width: 800px;
-    padding: 10px;
+    padding: 7px;
     height: 45%;
     display: flex;
     justify-content: center;
@@ -92,9 +90,9 @@ export const AboutImagesContainer = styled.div`
 `;
 
 export const ProfileImage = styled.div`
-    width: 395px;
+    width: 345px;
+
     height: 100%;
-    background-color: red;
     border-radius: 15%;
     z-index: 10;
     background-image: url("/img/profile.png");

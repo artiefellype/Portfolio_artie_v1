@@ -21,11 +21,7 @@ export const SignContainer = styled.div`
 `;
 
 export const ProjectsContainer = styled.div`
-    display: flex;
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     color: white;
     margin-top: 2.5rem;
     z-index: 1;
@@ -36,12 +32,10 @@ export const ProjectsContainer = styled.div`
 `;
 
 export const ProjectsItems = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    display: grid;
     justify-content: center;
+    grid: 400px / 400px 400px;
     gap: 60px;
-    width: 90%;
     padding-top: 6rem;
     padding-bottom: 6rem;
     transition: all ease 0.3s;
@@ -60,6 +54,8 @@ export const ProjectsItems = styled.div`
 
     @media screen and (max-width: 728px) {
         justify-content: center;
+        align-items: center;
+        grid: 250px / 1fr;
     }
 `;
 

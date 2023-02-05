@@ -1,5 +1,3 @@
-import React from "react";
-import "./styles/GlobalStyles.css";
 import "./styles";
 import {
     Navbar,
@@ -10,6 +8,7 @@ import {
     Contact,
     Footer,
 } from "./components";
+import "./styles/GlobalStyles.css";
 
 function App() {
     return (
