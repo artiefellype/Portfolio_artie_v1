@@ -1,37 +1,37 @@
 @font-face {
     font-family: "Rajdhani Bold";
     src: local("Rajdhani"),
-        url("./fonts/Rajdhani/Rajdhani-Bold.ttf") format("truetype");
+        url("./fonts/Rajdhani/Rajdhani-Bold.woff") format("truetype");
 }
 
 @font-face {
     font-family: "Rajdhani Light";
     src: local("Rajdhani"),
-        url("./fonts/Rajdhani/Rajdhani-Light.ttf") format("truetype");
+        url("./fonts/Rajdhani/Rajdhani-Light.woff") format("truetype");
 }
 
 @font-face {
     font-family: "Rajdhani Regular";
     src: local("Rajdhani"),
-        url("./fonts/Rajdhani/Rajdhani-Regular.ttf") format("truetype");
+        url("./fonts/Rajdhani/Rajdhani-Regular.woff") format("truetype");
 }
 
 @font-face {
     font-family: "RobotoCondensed Regular";
     src: local("Roboto_Condensed"),
-        url("./fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf")
+        url("./fonts/Roboto_Condensed/RobotoCondensed-Regular.woff")
             format("truetype");
 }
 
 @font-face {
     font-family: "Heebo Light";
-    src: local("Heebo"), url("./fonts/Heebo/Heebo-Light.ttf") format("truetype");
+    src: local("Heebo"), url("./fonts/Heebo/Heebo-Light.woff") format("truetype");
 }
 
 @font-face {
     font-family: "Heebo Regular";
     src: local("Heebo"),
-        url("./fonts/Heebo/Heebo-Regular.ttf") format("truetype");
+        url("./fonts/Heebo/Heebo-Regular.woff") format("truetype");
 }
 
 * {
