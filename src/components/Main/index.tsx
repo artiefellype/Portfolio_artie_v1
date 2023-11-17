@@ -1,7 +1,7 @@
 import { Container, LogoContainer, LogoDescription } from "./styles";
-import Logo from "../../utils/Logo";
-import Button from "../../utils/Button";
-import Block from "../../utils/BlocksSeparator";
+import Logo from "../Logo";
+import Button from "../Button";
+import Block from "../BlocksSeparator";
 
 export default function Main() {
     return (

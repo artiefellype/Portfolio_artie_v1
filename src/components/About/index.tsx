@@ -8,7 +8,7 @@ import {
     ProfileImage,
     SignContainer,
 } from "./styles";
-import RedSign from "../../utils/RedSign";
+import RedSign from "../RedSign";
 
 export default function About() {
     return (

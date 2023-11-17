@@ -4,7 +4,7 @@ import {
     ProjectsContainer,
     SignContainer,
 } from "./styles";
-import RedSign from "../../utils/RedSign";
+import RedSign from "../RedSign";
 import Project from "./ProjectItem";
 
 export default function Projects() {

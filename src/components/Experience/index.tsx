@@ -1,5 +1,5 @@
 import { useState } from "react";
-import RedSign from "../../utils/RedSign";
+import RedSign from "../RedSign";
 import {
     Container,
     BackgroundContainer,

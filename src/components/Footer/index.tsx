@@ -1,4 +1,4 @@
-import Logo from "../../utils/Logo";
+import Logo from "../Logo";
 import { Container, LogoContainer, SocialIconsContainer } from "./styles";
 
 export default function Footer() {

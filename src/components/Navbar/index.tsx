@@ -6,8 +6,8 @@ import {
     NavLinks,
     MobileNavBar,
 } from "./styles";
-import Button from "../../utils/Button";
-import LogoGlitch from "../../utils/Logo";
+import Button from "../Button";
+import LogoGlitch from "../Logo";
 import { useState } from "react";
 
 export default function Navbar() {

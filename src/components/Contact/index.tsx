@@ -1,6 +1,6 @@
 import { Container, ContentContainer } from "./styles";
-import Block from "../../utils/BlocksSeparator";
-import Button from "../../utils/Button";
+import Block from "../BlocksSeparator";
+import Button from "../Button";
 
 export default function Contact(){
     return(
