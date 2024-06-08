@@ -7,7 +7,6 @@ import {
     Experience,
     Contact,
     Footer,
-    Maintance,
 } from "./components";
 import "./styles/GlobalStyles.css";
 
@@ -16,11 +15,11 @@ function App() {
         <>
             <Navbar />
             <Main />
-            <Maintance />
-            {/* <About />
+            {/* <Maintance /> */}
+            <About />
             <Projects />
             <Experience />
-            <Contact /> */}
+            <Contact />
             <Footer />
         </>
     );

@@ -12,7 +12,24 @@ interface ExpType {
 export const ExperienceData: ExpType = {
     experience: [
         {
-            office: "Frontend Developer (Projeto)",
+            office: "FullStack Developer",
+            local: "GestClinic",
+            date: "fev 2024 - atual ",
+            descripton: [
+                " Liderei o desenvolvimento do backend de uma aplicação online, construindo sua API com Java, Spring e Docker para o gerenciamento eficiente de containers",
+                " Contribuí significativamente para o desenvolvimento da interface de projetos, empregando TypeScript e Next.js em conjunto com Tailwind CSS para proporcionar uma experiência moderna e intuitiva aos usuários.",
+            ],
+        },
+        {
+            office: "Frontend Developer",
+            local: "MindSafe",
+            date: "fev 2023 - fev 2024 ",
+            descripton: [
+                "Contribuí diretamente no desenvolvimento de uma plataforma dedicada a psicólogos, utilizando as tecnologias Next.js e TypeScript. ",
+            ],
+        },
+        {
+            office: "Frontend Developer",
             local: "HEALTH",
             date: "ago 2022 - nov 2022 ",
             descripton: [
@@ -22,7 +39,7 @@ export const ExperienceData: ExpType = {
             ],
         },
         {
-            office: "Frontend Developer (estágio)",
+            office: "Frontend Developer",
             local: "ENEXT",
             date: "out 2021 - jun 2022 ",
             descripton: [
@@ -32,7 +49,7 @@ export const ExperienceData: ExpType = {
             ],
         },
         {
-            office: "Fullstack Developer (Projeto)",
+            office: "Fullstack Developer",
             local: "Prime Car",
             date: "ago 2021 - nov 2021",
             descripton: [

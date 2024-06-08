@@ -6,7 +6,7 @@ export default function Footer() {
         <Container>
             <LogoContainer>
                 <Logo size="64px" />
-                <span>FRONTEND DEVELOPER</span>
+                <span>SOFTWARE DEVELOPER</span>
                 <SocialIconsContainer>
                     <div>
                         <li>

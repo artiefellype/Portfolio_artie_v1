@@ -21,18 +21,13 @@ export default function About() {
                     <AboutText>
                         <h2>QUEM SOU EU?_</h2>
                         <p>
-                            Sou atualmente estudante de Ciência da Computação na
-                            Universidade Federal Rural do Semi-Árido. Apesar do
-                            meu entusiasmo com tecnologia se dar desde pequeno,
-                            meu interesse na área da programação veio por volta
-                            de 2018 quando descobri o seu poder e desde lá fico
-                            animado em aprender cada vez mais.
+                        Sou o Arthur e, ao longo da minha trajetória profissional, fui melhorando minhas habilidades em linguagens de programação essenciais como JavaScript, TypeScript e Java. Além disso, possuo uma notável experiência em tecnologias tanto de front-end quanto de back-end, incluindo frameworks como React, Next.js e Spring.
                         </p>
                         <p>
-                            Como programador já desenvolvi em equipe Soluções em
-                            gerenciamento de oficinas mecânicas e de hospitais
-                            utilizando tecnologias como java, typescript,
-                            Next.js, React e postgreSQL.
+                        Sou autodisciplinado e adaptável a ambientes de trabalho remoto. Na minha atual posição em uma startup, aprimoro diariamente minhas habilidades com Next e Java, atuando na concepção completa de sistemas. Isso inclui desde a prototipação utilizando conceitos de UI/UX até o deploy e a entrega contínua aos clientes utilizando práticas de CI/CD.
+                        </p>
+                        <p>
+                        Com uma notável facilidade de aprendizado e robustas habilidades na resolução de problemas, consigo rapidamente dominar novas tecnologias e me adaptar a mudanças no ambiente de trabalho, garantindo sempre a entrega de soluções eficientes que superem as expectativas.
                         </p>
 
                         <p>
@@ -45,19 +40,19 @@ export default function About() {
                             <i className="uil uil-cube"></i>TypeScript
                         </li>
                         <li>
-                            <i className="uil uil-cube"></i>Node.js
+                            <i className="uil uil-cube"></i>Javascript
                         </li>
                         <li>
-                            <i className="uil uil-cube"></i>JavaScript
+                            <i className="uil uil-cube"></i>Java
                         </li>
                         <li>
                             <i className="uil uil-cube"></i>React
                         </li>
                         <li>
-                            <i className="uil uil-cube"></i>Python
+                            <i className="uil uil-cube"></i>Next
                         </li>
                         <li>
-                            <i className="uil uil-cube"></i>React Native
+                            <i className="uil uil-cube"></i>Spring Boot
                         </li>
                     </AboutList>
                 </AboutTextContainer>

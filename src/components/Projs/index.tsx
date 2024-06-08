@@ -16,7 +16,18 @@ export default function Projects() {
             <ProjectsContainer>
                 <h2>ALGUNS DOS MEUS PROJETOS_ </h2>
                 <ProjectsItems>
-
+                    <Project
+                        title="GestClinic"
+                        src="img/gestclinic.png"
+                        link="https://gestclinic.com.br/login"
+                        languages="Typescript - Next - Kotlin - Spring"
+                    />
+                    <Project
+                        title="Mind Safe"
+                        src="img/mindsafe.png"
+                        link="https://www.mindsafe.com.br/"
+                        languages="Typescript - Next"
+                    />
                     <Project
                         title="Portfólio de fotógrafa"
                         src="img/rebportfolio.png"
@@ -31,24 +42,16 @@ export default function Projects() {
                         languages="Typescript - React - NextJs - NestJs - PostgreSQL"
                     />
                     <Project
-                        title="BinaryTo Decimal"
-                        src="img/biToDe.png"
-                        link="https://binary-to-decimal-artgit.netlify.app"
-                        languages="html - css - javascript"
-                    />
-
-                    <Project
                         title="Raycasting"
                         src="img/raycasting.png"
                         link="https://artiefellype.github.io/Raycasting-CodingChallenges/"
                         languages="html - javascript"
                     />
                     <Project
-                        title="Em desenvolvimento"
-                        src="img/building.png"
-                        link="/"
-                        alt="image by cah nggunung"
-                        languages="Em breve"
+                        title="BinaryTo Decimal"
+                        src="img/biToDe.png"
+                        link="https://binary-to-decimal-artgit.netlify.app"
+                        languages="html - css - javascript"
                     />
                 </ProjectsItems>
             </ProjectsContainer>

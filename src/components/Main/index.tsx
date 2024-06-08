@@ -26,7 +26,7 @@ export default function Main() {
                             margin="5rem 0 0 0"
                             icon={<i className="uil uil-linkedin"></i>}
                             title="LINKEDIN"
-                            link="https://www.linkedin.com/in/arthur-felipe-b5b025216/"
+                            link="https://www.linkedin.com/in/arthur-felipe-sde/"
                         />
                     </div>
                 </div>
