@@ -5,6 +5,7 @@ import {
     Items,
     NavLinks,
     MobileNavBar,
+    NewPortfolioTag,
 } from "./styles";
 import Button from "../Button";
 import LogoGlitch from "../Logo";
@@ -18,9 +19,20 @@ export default function Navbar() {
     }
     return (
         <>
-            <Container style={{
-                paddingTop: '16px'
-            }}>
+            <Container
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                }}
+            >
+                <NewPortfolioTag
+                    href="https://arthur-felipe-portfolio-v2.vercel.app/"
+                    target="_blank"
+                >
+                    <h1>Portfólio V2 </h1>
+                </NewPortfolioTag>
                 <NavContainer>
                     <LogoGlitch size="32px" />
                     <NavItems>
@@ -82,8 +94,11 @@ export default function Navbar() {
                         className={`dropdown ${isOpen ? "dropdownpos" : ""}`}
                         onClick={handleMenuBar}
                     >
-                        {!isOpen ? <i className="uil uil-bars"></i> : <i className="uil uil-multiply"></i>}
-
+                        {!isOpen ? (
+                            <i className="uil uil-bars"></i>
+                        ) : (
+                            <i className="uil uil-multiply"></i>
+                        )}
                     </span>
                 </NavContainer>
             </Container>

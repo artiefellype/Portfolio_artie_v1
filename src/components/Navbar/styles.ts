@@ -3,6 +3,32 @@ import { Link as LinkTo } from "react-scroll";
 interface MenuBarCheck {
     checkIsOpen?: boolean;
 }
+
+export const NewPortfolioTag = styled.a`
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #6A32EA;
+    color: #fafafa;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+    font-family: "Rajdhani Bold", serif;
+    text-decoration: none;
+
+    h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    &:hover {
+        background-color: #5634A6;
+        transition: background-color 0.3s ease-in-out;
+    }
+`;
+
 export const Container = styled.div`
     width: 100%;
     position: absolute;
